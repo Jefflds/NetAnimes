@@ -1,0 +1,146 @@
+:root {
+    --Red: #e50914;
+    --Black: Black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Elementos base */
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--Black);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 40px;
+    margin-left: 5px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+
+
+/*Filme Principal */
+
+.principal-movie {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/Images/OnePiece.jpg);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+}
+
+.principal-movie-series {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/Images/DragonBallZ-wallpaper.jpg);
+}
+
+.principal-movie-movies {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/Images/YourName.jpg);
+}
+
+
+#principal-movie1 {
+    color: white;
+    margin-left: 10px;
+}
+
+.image1 {
+    width: 200px;
+    padding-right: 50px;
+    overflow: hidden;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.image2 {
+
+    background-color: white;
+}
+
+.Description1 {
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+    padding-bottom: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .3s ease all;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn1 {
+    margin-right: 15px;
+}
+
+.float-left {
+    float:left;
+}
+
+.btn i {
+    margin-right: 0.02%;
+}
+
+.principal-movie .container {
+    width: 70%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.tittle1 h3 {
+    font-size: 100% 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-style: none;
+}
