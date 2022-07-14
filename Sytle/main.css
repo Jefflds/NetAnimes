@@ -51,7 +51,7 @@ header nav a:hover {
 /*Filme Principal */
 
 .principal-movie {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/Images/OnePiece.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(Images/OnePiece.jpg);
     height: 550px;
     background-size: cover;
     display: flex;
@@ -61,11 +61,11 @@ header nav a:hover {
 }
 
 .principal-movie-series {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/Images/DragonBallZ-wallpaper.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(Images/DragonBallZ-wallpaper.jpg);
 }
 
 .principal-movie-movies {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(/Images/YourName.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(Images/YourName.jpg);
 }
 
 
@@ -114,6 +114,15 @@ header nav a:hover {
 
 .btn1 {
     margin-right: 15px;
+}
+
+.principal-movie .container .btn a {
+    color: white;
+    transition: .3s ease all;
+}
+
+.principal-movie .container .btn a:hover {
+    color: black;
 }
 
 .float-left {
